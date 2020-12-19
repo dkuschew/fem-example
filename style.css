@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap; 
+    width: 300px;
+    height: 500px;
+    }
+  
+  .button {
+    font-size: 30px;
+    font-family: Arial;
+    border: 1px solid #000; 
+    cursor: pointer;
+  }
+  
+  .val-input {
+    text-align: right;
+    font-size: 30px;
+    background: black;
+    font-family: monospace;
+    color: white;
+    }
+  
+  .quarter {
+    width: 25%; 
+    }
+  
+  .third {
+    width: 33.33%; 
+  }
+  
+  .half {
+    width: 50%; 
+  }
+  
+  .threefourth {
+    width: 75%; 
+  }
+  
+  .full {
+    width: 100%; 
+  }
+  
+  .button-color {
+    background-color: #D3D3D3;
+  }
+  
+  .button:hover {
+      background-color: #C0C0C0;
+  }
+  
+  .button:active {
+      background-color: #bbbcbe;
+  }
+  
+  .operator {
+    background-color: peru;
+    color: white;
+  }
+  
+  .operator:hover {
+      background-color: #DAA520;
+  }
+  
+  .operator:active {
+      background-color: #dd8d37;
+  }
+  
